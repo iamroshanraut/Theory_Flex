@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+    font-family:'Raleway', sans-serif;
+}
+
+/* Header starts here  */
+
+header{
+    width: 100vw;
+    background-image: url("../img/dd.jpg");
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 7rem;
+    border-top: 0.4rem solid #4e82be;
+}
+
+header .inner{
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 0;
+    margin-bottom: 3rem;
+
+}
+
+nav h5{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin-left: 1rem;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 200;
+
+}
+
+.poster{; 
+    padding: 30px 0;
+    
+}
+
+.poster h1{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+.poster p{
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+/* header edns here  */
+
+
+/* service section starts here  */
+
+.service{
+    width: 100vw;
+    padding: 5rem 0;
+}
+
+.service .inner{
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_box{
+    padding: 1rem 2.1rem;
+}
+
+.service_box h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #4e82be;
+    margin-bottom: 1.5rem;
+}
+
+.service_box p{
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.service_box a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #4e82be;
+    color: #fff;
+}
+
+.rightboder{
+    border-right: 0.01rem solid grey;
+}
+
+
+/*  service section ends here  */
+
+
+/* Testimonial Strats here  */
+
+.testimonial{
+    width: 100vw;
+    background-color: #4e82be;
+    padding: 5rem 0;
+}
+
+.testimonial .inner{
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.team_heading{
+    width: 100vw;
+    margin-bottom: 3.1rem;
+}
+
+.team_heading h2{
+    font-size: 2.1rem;
+    font-weight: 100;
+    margin-bottom: 1.1rem;
+}
+
+.team_heading p{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.team_member{
+    width: 15vw;
+    border: 0.11rem solid rgb(221, 221, 221);
+    padding: 2rem 0;
+}
+
+.team_member img{
+    width: 70%;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+
+.team_member h4{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 0.6rem;
+}
+
+.team_member p{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+
+/* testimonial Section ends here */
+
+
+/* blog section starts here  */
+
+.blog_section{
+    width: 100vw;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.blog_heading{
+    width: 70vw;
+    border:  2px solid green;
+    margin: 0 auto;
+}
+
+.blog_heading h2{
+    font-size: 1.9rem;
+    font-weight: 200;
+    color:#4e82be ;
+    margin-bottom: 0.6rem;
+}
+
+.blog_heading p{
+    font-size: 0.85rem;
+}
+
+.blog_main{
+    width: 70vw;
+    margin: 0 auto;
+    border: 2px solid brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog_post{
+    width: 33vw;
+    border: 2px solid pink;
+    text-align: left;
+}
+
+.blog_post img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.blog_post h4{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#4e82be ;
+    margin-bottom: 1rem;
+}
+
+.blog_post p{
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
