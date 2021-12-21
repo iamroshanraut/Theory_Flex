@@ -188,14 +188,14 @@ nav ul a{
 
 .blog_section{
     width: 100vw;
-    border: 2px solid red;
     text-align: center;
+    padding: 1.7rem 0;
 }
 
 .blog_heading{
     width: 70vw;
-    border:  2px solid green;
     margin: 0 auto;
+    padding: 1.5rem 0;
 }
 
 .blog_heading h2{
@@ -212,7 +212,6 @@ nav ul a{
 .blog_main{
     width: 70vw;
     margin: 0 auto;
-    border: 2px solid brown;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -220,8 +219,8 @@ nav ul a{
 
 .blog_post{
     width: 33vw;
-    border: 2px solid pink;
     text-align: left;
+    padding-bottom: 0.6rem;
 }
 
 .blog_post img{
@@ -238,6 +237,43 @@ nav ul a{
 
 .blog_post p{
     font-size: 0.85rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.3rem;
 }
 
+.blog_post a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #4e82be;
+    color: #fff;
+}
+
+
+/* Blog Section Section ends Here */
+
+
+/* footer starts here  */
+
+footer{
+    width: 100vw;
+}
+
+footer .inner{
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2.2rem 0;
+    border-top: 0.1rem solid gray ;
+}
+
+footer .inner p{
+    font-size: 0.85rem;
+}
+
+.social span{
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    color: #4e82be;
+}
